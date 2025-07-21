@@ -138,3 +138,11 @@ Write-Host "2. Send them the repository link" -ForegroundColor White
 Write-Host "3. They can clone with: git clone $remoteUrl" -ForegroundColor White
 Write-Host ""
 Write-Host "📖 Read GITHUB_SETUP.md for detailed team setup instructions" -ForegroundColor Yellow
+Write-Host ""
+Write-Host "🌐 Live Website Deployment:" -ForegroundColor Cyan
+Write-Host "1. Go to https://netlify.com and sign up" -ForegroundColor White
+Write-Host "2. Drag your project folder to netlify.com/drop" -ForegroundColor White
+Write-Host "3. Or connect your GitHub repository for auto-deploy" -ForegroundColor White
+Write-Host "4. Share the live URL with your team!" -ForegroundColor White
+Write-Host ""
+Write-Host "📚 Read DEPLOYMENT_GUIDE.md for complete setup instructions" -ForegroundColor Yellow
