@@ -12,15 +12,28 @@ Welcome to our team's collaborative Java Full Stack documentation! This reposito
 
 ### Core Java Topics
 
-| Topic                       | Assigned To | Status         | Due Date |
-| --------------------------- | ----------- | -------------- | -------- |
-| Java Basics & Syntax        | [Name]      | 🔄 In Progress | [Date]   |
-| Object-Oriented Programming | [Name]      | ⏳ Pending     | [Date]   |
-| Collections Framework       | [Name]      | ⏳ Pending     | [Date]   |
-| Exception Handling          | [Name]      | ⏳ Pending     | [Date]   |
-| Multithreading              | [Name]      | ⏳ Pending     | [Date]   |
-| Stream API                  | [Name]      | ⏳ Pending     | [Date]   |
-| Lambda Expressions          | [Name]      | ⏳ Pending     | [Date]   |
+| Topic                                                                      | Assigned To              | Status      | Due Date     |
+| -------------------------------------------------------------------------- | ------------------------ | ----------- | ------------ |
+| What Is abstarct class And What Is Interface And Difference Between Them ? | [Sudhanshu Sakhare]      | ✅ Complete | [16-07-2025] |
+| What Is Class And It's Components                                          | [Gargee Purwar]          | ⏳ Pending  | [16-07-2025] |
+| What Are Objects and There Components                                      | [Pranay Bhagat]          | ⏳ Pending  | [16-07-2025] |
+| Four Access Modifier                                                       | [Purva ]                 | ⏳ Pending  | [16-07-2025] |
+| What Is Package ?                                                          | [Mansi D nandanwar]      | ⏳ Pending  | [17-07-2025] |
+| What Is Nested Class?                                                      | [Vaibhavi Ghoom]         | ⏳ Pending  | [17-07-2025] |
+| what Is Class & Classpath?                                                 | [Niraj ]                 | ⏳ Pending  | [17-07-2025] |
+| Exception handling                                                         | [Utkarsha Ingale ]       | ⏳ Pending  | [18-07-2025] |
+| Check Exception                                                            | [Jayant Meshram ]        | ⏳ Pending  | [18-07-2025] |
+| Runtime Exception                                                          | [Fulanshu Kuthe ]        | ⏳ Pending  | [18-07-2025] |
+| Optional Class In JDK                                                      | [Gayatri Jaisawal]       | ⏳ Pending  | [18-07-2025] |
+| Execution framework                                                        | [Sarang Marotkar ]       | ⏳ Pending  | [22-07-2025] |
+| Parallel Stream                                                            | [Achal Katkar ]          | ⏳ Pending  | [22-07-2025] |
+| What is Stream?                                                            | [Varsha Mohod ]          | ⏳ Pending  | [22-07-2025] |
+| What Is Producer &Consumer?                                                | [Vaidehi Bhilawe ]       | ⏳ Pending  | [22-07-2025] |
+| What Is Method Reference ?                                                 | [Pratiksha Roshankhede ] | ⏳ Pending  | [22-07-2025] |
+| What Is JDK Features ?                                                     | [Vaidehi Warambhe ]      | ⏳ Pending  | [22-07-2025] |
+| What Is Thread Join ? ?                                                    | [Rupali Korkanti ]       | ⏳ Pending  | [22-07-2025] |
+| What Is Single Stream ?                                                    | [Sarika Khorgade ]       | ⏳ Pending  | [22-07-2025] |
+| Do Not Know?                                                               | [Saurabh Admane ]        | ⏳ Pending  | [22-07-2025] |
 
 ### Backend Technologies
 
