@@ -1,76 +1,12 @@
 # Java Full Stack Documentation Project
 
-Welcome to our team's collaborative Java Full Stack documentation! This repository serves as the central knowledge base for our project with a complete full-stack web application for team management.
-
-🌐 **Live Management Portal**: [View on Netlify](https://your-java-docs.netlify.app) _(Deploy instructions below)_
-
-## 🏗️ **Project Structure**
-
-```
-java-Document/
-├── webpage/
-│   ├── frontend/                 # Web Application Frontend
-│   │   ├── index.html           # Main dashboard interface
-│   │   ├── app.js               # Core application logic
-│   │   ├── styles.css           # Complete styling
-│   │   ├── github-integration.js # GitHub API integration
-│   │   ├── netlify.toml         # Deployment config
-│   │   └── README.md            # Frontend documentation
-│   └── backend/                 # Express.js API Server
-│       ├── models/              # MongoDB schemas
-│       ├── routes/              # API endpoints
-│       ├── server.js            # Express server
-│       ├── package.json         # Dependencies
-│       └── README.md            # Backend documentation
-├── docs/                        # Documentation content
-├── templates/                   # Documentation templates
-├── README.md                    # This file
-├── SETUP_INSTRUCTIONS.md        # Complete setup guide
-├── SYNC_GUIDE.md               # GitHub sync instructions
-└── [other documentation files]
-```
-
-## � **Features**
-
-### **Full-Stack Application**
-
-- 📖 **Web Dashboard** - Modern, responsive team management interface
-- 👥 **Team Management** - Add, edit, and track team members with skills
-- 📊 **Assignment Tracking** - Create, assign, and monitor documentation tasks
-- 📈 **Analytics** - Real-time team performance and progress metrics
-- �️ **MongoDB Backend** - Persistent data storage with Express.js API
-- 🔄 **GitHub Integration** - Automatic README updates via GitHub API
-
-### **Mobile-Friendly Design**
-
-- 📱 **Responsive Layout** - Works perfectly on all devices
-- 🎨 **Modern UI** - Clean, professional interface
-- 🔔 **Real-time Updates** - Live progress tracking
-- 💾 **Persistent Storage** - Data survives browser refreshes
-
-## 🔄 **How to Sync Website with README**
-
-### Manual Sync Process (Current):
-
-1. **Update assignments** on the live website
-2. **Click "Export Data"** button to download JSON
-3. **Run update script** to sync with README.md
-4. **Commit and push** changes to GitHub
-
-### Auto-sync Setup (Advanced):
-
-- Connect website to GitHub API
-- Automatic README updates when assignments change
-- Real-time synchronization between website and repository
-
-_See `SYNC_GUIDE.md` for detailed sync instructions_
+Welcome to our team's collaborative Java Full Stack documentation! This repository serves as the central knowledge base for our project.
 
 ## 👥 Team Information
 
 - **Team Size**: 20 developers + 1 trainee
 - **Purpose**: Comprehensive documentation for Java Full Stack development
 - **Goal**: Create a reference guide that everyone can contribute to and learn from
-- **Management**: Full-stack web application with persistent data storage
 
 ## 📋 Documentation Topics Assignment
 
@@ -78,7 +14,7 @@ _See `SYNC_GUIDE.md` for detailed sync instructions_
 
 | Topic                       | Assigned To | Status         | Due Date |
 | --------------------------- | ----------- | -------------- | -------- |
-| what Is Abstract Class      | [Name]      | 🔄 In Progress | [Date]   |
+| Java Basics & Syntax        | [Name]      | 🔄 In Progress | [Date]   |
 | Object-Oriented Programming | [Name]      | ⏳ Pending     | [Date]   |
 | Collections Framework       | [Name]      | ⏳ Pending     | [Date]   |
 | Exception Handling          | [Name]      | ⏳ Pending     | [Date]   |
