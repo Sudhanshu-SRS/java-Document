@@ -8,8 +8,8 @@ Welcome to our team's collaborative Java Full Stack documentation! This reposito
 - **Purpose**: Comprehensive documentation for Java Full Stack development
 - **Goal**: Create a reference guide that everyone can contribute to and learn from
 ## Guided By T.Varnan Sir
-- [**Linkdln**](https://www.linkedin.com/in/varnan-alias-vellaivaranan-thirugnanasambandan-640556119/)
-- [**Github**](https://github.com/varnant)
+- [**Sir's Linkdln**](https://www.linkedin.com/in/varnan-alias-vellaivaranan-thirugnanasambandan-640556119/)
+- [**Sir's Github**](https://github.com/varnant)
 
 ## 📋 Documentation Topics Assignment
 
