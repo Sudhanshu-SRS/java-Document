@@ -28,7 +28,7 @@ Welcome to our team's collaborative Java Full Stack documentation! This reposito
 | Check Exception                                                            | [Jayant Meshram ]        | ⏳ Pending  | [18-07-2025] |
 | Runtime Exception                                                          | [Fulanshu Kuthe ]        | ⏳ Pending  | [18-07-2025] |
 | Optional Class In JDK                                                      | [Gayatri Jaisawal]       | ⏳ Pending  | [18-07-2025] |
-| Execution framework                                                        | [Sarang Marotkar ]       | ⏳ Pending  | [22-07-2025] |
+| Execution framework                                                        | [Sarang Marotkar ]       | ✅ Complete | [22-07-2025] |
 | Parallel Stream                                                            | [Achal Katkar ]          | ⏳ Pending  | [22-07-2025] |
 | What is Stream?                                                            | [Varsha Mohod ]          | ⏳ Pending  | [22-07-2025] |
 | What Is Producer &Consumer?                                                | [Vaidehi Bhilawe ]       | ⏳ Pending  | [22-07-2025] |
