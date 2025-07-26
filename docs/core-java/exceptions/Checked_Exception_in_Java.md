@@ -303,6 +303,6 @@ class MyException extends Exception {
 
 **Author**: Jayant Meshram
 **Last Updated**: July 26, 2025  
-**Reviewed By**: Java Experts Team  
+**Reviewed By**: T.Varnan Sir  
 **Difficulty Level**: Beginner  
 **Estimated Reading Time**: 10 minutes
