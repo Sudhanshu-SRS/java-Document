@@ -26,7 +26,7 @@ Welcome to our team's collaborative Java Full Stack documentation! This reposito
 | what Is Class & Classpath?                                                 | [Niraj ]                 | ⏳ Pending  | [17-07-2025] |
 | Exception handling                                                         | [Utkarsha Ingale ](docs/core-java/exceptions/Exception_Handling_Java_Full.md)       | ✅ Complete  | [26-07-2025] |
 | Check Exception                                                            | [Jayant Meshram ](docs/core-java/exceptions/Checked_Exception_in_Java.md)       | ✅ Complete   | [26-07-2025] |
-| Runtime Exception                                                          | [Fulanshu Kuthe ]        | ⏳ Pending  | [18-07-2025] |
+| Runtime Exception                                                          | [Fulanshu Kuthe ](docs/core-java/exceptions/Runtime_Exception_in_Java.md)        | ✅ Complete  | [26-07-2025] |
 | Optional Class In JDK                                                      | [Gayatri Jaisawal]       | ⏳ Pending  | [18-07-2025] |
 | Execution framework                                                        | [Sarang Marotkar ]       | ✅ Complete | [22-07-2025] |
 | Parallel Stream                                                            | [Achal Katkar ]          | ⏳ Pending  | [22-07-2025] |
