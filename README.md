@@ -4,7 +4,7 @@ Welcome to our team's collaborative Java Full Stack documentation! This reposito
 
 ## 👥 Team Information
 
-- **Team Size**: 20 developers + 1 trainee
+- **Team Size**: 24 developers + 1 trainee
 - **Purpose**: Comprehensive documentation for Java Full Stack development
 - **Goal**: Create a reference guide that everyone can contribute to and learn from
 ## Guided By T.Varnan Sir
@@ -37,6 +37,8 @@ Welcome to our team's collaborative Java Full Stack documentation! This reposito
 | What Is Thread Join ? ?                                                    | [Rupali Korkanti ](docs/core-java/multithreading/Thread_Join_Java_Documentation.md)       | ✅ Complete | [26-07-2025] |
 | What Is Single Stream ?                                                    | [Sarika Khorgade ]       | ⏳ Pending  | [22-07-2025] |
 | Do Not Know?                                                               | [Saurabh Admane ]        | ⏳ Pending  | [22-07-2025] |
+| what Is Casting?                                                               | [Prashika Thool ]        | ⏳ Pending  | [22-07-2025] |
+
 
 ### Backend Technologies
 
