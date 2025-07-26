@@ -24,7 +24,7 @@ Welcome to our team's collaborative Java Full Stack documentation! This reposito
 | What Is Package ?                                                          | [Mansi D nandanwar](docs/core-java/basics/java-packages.md)     | ✅ Complete   | [25-07-2025] |
 | What Is Nested Class?                                                      | [Vaibhavi Ghom]         | ⏳ Pending  | [17-07-2025] |
 | what Is Class & Classpath?                                                 | [Niraj ]                 | ⏳ Pending  | [17-07-2025] |
-| Exception handling                                                         | [Utkarsha Ingale ](docs/core-java/exceptions/Exception_Handling_Java_Full.md)       | ✅ Complete  | [18-07-2025] |
+| Exception handling                                                         | [Utkarsha Ingale ](docs/core-java/exceptions/Exception_Handling_Java_Full.md)       | ✅ Complete  | [26-07-2025] |
 | Check Exception                                                            | [Jayant Meshram ](docs/core-java/exceptions/Checked_Exception_in_Java.md)       | ✅ Complete   | [26-07-2025] |
 | Runtime Exception                                                          | [Fulanshu Kuthe ]        | ⏳ Pending  | [18-07-2025] |
 | Optional Class In JDK                                                      | [Gayatri Jaisawal]       | ⏳ Pending  | [18-07-2025] |
