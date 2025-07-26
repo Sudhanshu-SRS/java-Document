@@ -18,7 +18,7 @@ Welcome to our team's collaborative Java Full Stack documentation! This reposito
 | Topic                                                                      | Assigned To              | Status      | Due Date     |
 | -------------------------------------------------------------------------- | ------------------------ | ----------- | ------------ |
 | What Is abstarct class And What Is Interface And Difference Between Them ? | [Sudhanshu Sakhare](docs/core-java/basics/abstract-vs-interface-java.md)      | ✅ Complete | [16-07-2025] |
-| What Is Class And It's Components                                          | [Gargee Purwar](docs/core-java/basics/java_class_documentation.md)          | ✅ Complete  | [16-07-2025] |
+| What Is Class And It's Components                                          | [Gargee Purwar](docs/core-java/basics/java_class_documentation.md)          | ✅ Complete  | [26-07-2025] |
 | What Are Objects and There Components                                      | [Pranay Bhagat]          | ⏳ Pending  | [16-07-2025] |
 | Four Access Modifier                                                       | [Purva ]                 | ⏳ Pending  | [16-07-2025] |
 | What Is Package ?                                                          | [Mansi D nandanwar](docs/core-java/basics/java-packages.md)     | ✅ Complete   | [25-07-2025] |
