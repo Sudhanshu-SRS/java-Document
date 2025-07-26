@@ -21,7 +21,7 @@ Welcome to our team's collaborative Java Full Stack documentation! This reposito
 | What Is Class And It's Components                                          | [Gargee Purwar]          | ⏳ Pending  | [16-07-2025] |
 | What Are Objects and There Components                                      | [Pranay Bhagat]          | ⏳ Pending  | [16-07-2025] |
 | Four Access Modifier                                                       | [Purva ]                 | ⏳ Pending  | [16-07-2025] |
-| What Is Package ?                                                          | [Mansi D nandanwar]      | ⏳ Pending  | [17-07-2025] |
+| What Is Package ?                                                          | [Mansi D nandanwar] (docs/core-java/basics/java-packages.md)     | ✅ Complete   | [25-07-2025] |
 | What Is Nested Class?                                                      | [Vaibhavi Ghoom]         | ⏳ Pending  | [17-07-2025] |
 | what Is Class & Classpath?                                                 | [Niraj ]                 | ⏳ Pending  | [17-07-2025] |
 | Exception handling                                                         | [Utkarsha Ingale ]       | ⏳ Pending  | [18-07-2025] |
