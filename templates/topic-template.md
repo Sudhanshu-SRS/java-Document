@@ -1,214 +1,274 @@
-# [Topic Name]
+# Nested Class in Java
 
 ## 📖 Overview
 
-[Brief description of the topic - 2-3 sentences explaining what this topic covers and why it's important]
+Nested classes in Java are classes defined within another class. They help logically group classes that are only used in one place, improve encapsulation, and can access members of the outer class. Nested classes make the code more readable and maintainable in object-oriented programming.
 
 ## 🎯 Learning Objectives
 
 After reading this documentation, you will be able to:
 
-- [Specific skill or knowledge the reader will gain]
-- [Another specific learning outcome]
-- [Third learning outcome]
-- [Add more as needed]
+- Understand the types of nested classes in Java
+- Create and use static and non-static nested classes
+- Understand how nested classes can access members of the outer class
+- Apply nested classes in real-world applications and design patterns
+
+
 
 ## ⚡ Prerequisites
 
-- [What concepts should readers understand first]
-- [Required software/tools]
-- [Assumed knowledge level - e.g., "Basic Java programming knowledge"]
+- Basic Java programming knowledge
+- JDK installed and configured
+- Understanding of Java classes and objects
+- IDE or text editor (e.g., Eclipse, IntelliJ, or Notepad)
 
-## 🔑 Key Concepts
 
-### [Concept 1 Name]
+## 🔑 Key Concept
+### 1. Types of Nested Classes
 
-[Explanation of the first major concept]
+Java supports four types of nested classes:
+
+1) Static nested class
+
+2) Non-static (Inner) class
+
+3) Local inner class
+
+4) Anonymous inner class
 
 ```java
-// Code example demonstrating the concept
-public class ConceptExample {
-    // Well-commented code
+public class Outer {
+    static class StaticNested {
+        void display() {
+            System.out.println("Static nested class");
+        }
+    }
+
+    class Inner {
+        void display() {
+            System.out.println("Inner (non-static) class");
+        }
+    }
 }
+
 ```
 
-### [Concept 2 Name]
+### 2. Accessing Outer Class Members
+Non-static inner classes can access all members (even private) of the outer class.
+Static nested classes can only access static members of the outer class.
 
-[Explanation of the second major concept]
 
-### [Concept 3 Name]
-
-[Add more concepts as needed]
 
 ## 💻 Code Examples
 
 ### Basic Example
 
+Title: Creating and accessing a static nested class
+
+Description: Demonstrates a static nested class
+
 ```java
-// Title: [What this example demonstrates]
-// Description: [Brief explanation of what the code does]
+public class Outer {
+    static class StaticNested {
+        void show() {
+            System.out.println("Hello from static nested class");
+        }
+    }
 
-public class BasicExample {
     public static void main(String[] args) {
-        // Step 1: [Explain what this step does]
-
-        // Step 2: [Explain what this step does]
-
-        // Step 3: [Explain what this step does]
-
-        // Output explanation
-        System.out.println("Expected output: [describe output]");
+        Outer.StaticNested sn = new Outer.StaticNested();
+        sn.show();  // Expected output: Hello from static nested class
     }
 }
+
 ```
 
 ### Intermediate Example
 
-```java
-// Title: [What this example demonstrates]
-// Description: [More complex real-world usage]
+Title: Non-static inner class accessing outer class field
 
-public class IntermediateExample {
-    // Implementation with more realistic scenario
+Description: Demonstrates use of a non-static inner class accessing outer class members
+
+```java
+public class Outer {
+    private String message = "Hello from Outer";
+
+    class Inner {
+        void display() {
+            System.out.println(message);
+        }
+    }
+
+    public static void main(String[] args) {
+        Outer outer = new Outer();
+        Outer.Inner inner = outer.new Inner();
+        inner.display(); // Expected output: Hello from Outer
+    }
 }
+
 ```
 
 ### Advanced Example
 
-```java
-// Title: [What this example demonstrates]
-// Description: [Complex scenario showing best practices]
+Title: Anonymous inner class for event handling
 
-public class AdvancedExample {
-    // Full implementation with error handling, optimization, etc.
+Description: Real-world use of anonymous inner class with Runnable
+
+```java
+public class Demo {
+    public static void main(String[] args) {
+        Thread t = new Thread(new Runnable() {
+            public void run() {
+                System.out.println("Running inside anonymous inner class");
+            }
+        });
+        t.start();
+    }
 }
+
 ```
 
 ## ✅ Best Practices
 
-1. **[Practice 1 Title]**
+1. Use Inner Classes for Logical Grouping
 
-   - [Specific recommendation]
-   - [Why this is important]
-   - [Code example if applicable]
+   - Use nested classes only when they logically belong to the outer class.
 
-2. **[Practice 2 Title]**
+   - Why: Enhances cohesion and encapsulation.
+   
 
-   - [Specific recommendation]
-   - [Why this is important]
+2. Avoid Excessive Nesting
+  
+   - Too many nested classes make the code harder to understand.
 
-3. **[Practice 3 Title]**
-   - [Continue with more practices]
+    - Why: Reduces readability and maintainability.
 
+4. Use Static Nested Classes When No Outer Instance is Needed
+
+     - If the nested class doesn’t need access to instance members of the outer class, make it static.
+
+     - Why: Saves memory and clarifies purpose.
 ## ❌ Common Pitfalls
 
-1. **[Pitfall 1 Title]**
+1. Using Non-static Inner Class Without Outer Object
 
-   ```java
-   // Wrong way
-   // [Code showing what NOT to do]
+  ```java
+  // Wrong way
+  Animal a = new Animal(); // Error
    ```
 
    ```java
-   // Correct way
-   // [Code showing the right approach]
+  // Correct way
+     Outer outer = new Outer();
+     Outer.Inner obj = outer.new Inner();
    ```
 
-   **Why this matters**: [Explanation of the problem and solution]
-
-2. **[Pitfall 2 Title]**
-   [Description of another common mistake and how to avoid it]
-
-3. **[Pitfall 3 Title]**
-   [Continue with more pitfalls]
+   **Why this matters**: Non-static inner classes need an outer class instance.
 
 ## 🔧 Hands-On Exercise
 
-### Exercise: [Exercise Title]
+### Exercise:  Build a Company-Department Relationship using Nested Class
 
-**Objective**: [What the reader should accomplish]
-
+**Objective**: Use a non-static inner class to represent a department within a company.
 **Requirements**:
 
-- [Requirement 1]
-- [Requirement 2]
-- [Requirement 3]
+- Define a Company class with a name
+
+- Create an inner class Department with a method to display both company and department names
+
+- Use the inner class in the main method
 
 **Starter Code**:
 
 ```java
-// TODO: Complete the following class
-public class ExerciseClass {
-    // [Provide skeleton code for students to complete]
+public class Company {
+    String companyName = "TechCorp";
+
+    // TODO: Complete the inner class
+    class Department {
+        String deptName = "Engineering";
+        void display() {
+            // Print both names
+        }
+    }
+
+    public static void main(String[] args) {
+        // TODO: Instantiate and call the display method
+    }
 }
+
 ```
 
 **Solution Hints**:
 
-- [Hint 1]
-- [Hint 2]
-- [Hint 3]
+- Access outer class member using companyName directly
+
+- Use outer.new Inner() syntax
 
 **Expected Output**:
 
 ```
-[Show what the completed exercise should output]
+Company: TechCorp  
+Department: Engineering  
+
 ```
 
 ## 🚀 Real-World Applications
 
-### Use Case 1: [Scenario Name]
+### Use Case 1:  GUI Development
 
-[Description of how this topic is used in real applications]
+Java Swing uses nested classes heavily in event handling and UI components.
 
-### Use Case 2: [Scenario Name]
+### Use Case 2:  Threading
 
-[Another practical application]
+Anonymous inner classes are widely used to define short-lived threads or event handlers.
 
 ## 🔗 Integration with Other Topics
 
-- **Related to [Topic Name]**: [How they connect]
-- **Prerequisites for [Topic Name]**: [What builds on this]
-- **Combines with [Topic Name]**: [How they work together]
+- **Related to Encapsulation**: Nested classes help restrict visibility
+- **Prerequisites for  Java GUI Development**: Required in Swing event handling
+- **Combines with  Inheritance and Interfaces**: Nested classes can implement interfaces or extend other classes
 
 ## 📚 Further Reading
 
-- [Link 1](url) - [Description of what this resource covers]
-- [Link 2](url) - [Description of what this resource covers]
-- [Official Documentation](url) - [Official reference]
-- [Tutorial](url) - [Step-by-step guide]
-- [Advanced Reading](url) - [For deeper understanding]
+- Official Java Docs on Nested Classes
+- Java Point Tutorial - Nested Classes
+- GeeksForGeeks  - Java Nested Classes
+- Oracle Java Tutorials
+- [Book: Effective Java by Joshua Bloch - Item on Inner Classes]
 
 ## 💡 Tips for Success
 
-- [Tip 1]
-- [Tip 2]
-- [Tip 3]
+- Practice writing nested classes with different access modifiers
+- Focus on when to use static vs non-static inner classes
+- Keep inner classes small and focused
+
+
 
 ## 🔍 Troubleshooting
 
-### Common Error: [Error Message]
+### Common Error: Cannot create a static reference to the non-static inner class
 
-**Cause**: [Why this error occurs]
-**Solution**: [How to fix it]
+**Cause**: Trying to create inner class object without outer class instance
+**Solution**: Use Outer outer = new Outer(); Outer.Inner inner = outer.new Inner();
 
-```java
-// Example of the fix
-```
 
-### Common Error: [Another Error Message]
-
-**Cause**: [Why this error occurs]
-**Solution**: [How to fix it]
+### Common Error: Local variable referenced from inner class must be final or effectively final
+**Cause**: Using a mutable local variable inside a local/anonymous class
+**Solution**: Declare variable as final or do not modify it after assignment
 
 ## 🏷️ Tags
 
-#java #[your-topic] #[category] #[additional-relevant-tags]
+#java #nestedclasses #oop #innerclass #staticclass #intermediatejava
 
 ---
 
-**Author**: [Your Name]  
-**Last Updated**: [Date]  
-**Reviewed By**: [Reviewer Names]  
-**Difficulty Level**: [Beginner/Intermediate/Advanced]  
-**Estimated Reading Time**: [X minutes]
+**Author**: Vaibhavi Santoshrao Ghom
+
+**Last Updated**: July 27, 2025
+
+**Reviewed By**: T.Varnan Sir 
+
+**Difficulty Level**: Beginner
+
+**Estimated Reading Time**: 10–12 minutes
