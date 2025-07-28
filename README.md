@@ -29,7 +29,7 @@ Welcome to our team's collaborative Java Full Stack documentation! This reposito
 | Runtime Exception                                                          | [Fulanshu Kuthe ](docs/core-java/exceptions/Runtime_Exception_in_Java.md)        | ✅ Complete  | [26-07-2025] |
 | Optional Class In JDK                                                      | [Gayatri Jaisawal]       | ⏳ Pending  | [18-07-2025] |
 | Execution framework                                                        | [Sarang Marotkar ]       | ✅ Complete | [22-07-2025] |
-| Parallel Stream                                                            | [Achal Katkar ] (docs/core-java/Streams/Parallel_Stream_Java.md)         | ✅ Complete  | [28-07-2025] |
+| Parallel Stream                                                            | [Aachal Katkar ](docs/core-java/Streams/Parallel_Stream_Java.md)         | ✅ Complete  | [28-07-2025] |
 | What is Stream?                                                            | [Varsha Mohod ]          | ⏳ Pending  | [22-07-2025] |
 | What Is Producer &Consumer?                                                | [Vaidehi Bhilawe ]       | ⏳ Pending  | [22-07-2025] |
 | What Is Method Reference ?                                                 | [Pratiksha Roshankhede ] | ⏳ Pending  | [22-07-2025] |
