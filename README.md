@@ -30,7 +30,7 @@ Welcome to our team's collaborative Java Full Stack documentation! This reposito
 | Optional Class In JDK                                                      | [Gayatri Jaisawal]       | ⏳ Pending  | [18-07-2025] |
 | Execution framework                                                        | [Sarang Marotkar ]       | ✅ Complete | [22-07-2025] |
 | Parallel Stream                                                            | [Aachal Katkar ](docs/core-java/Streams/Parallel_Stream_Java.md)         | ✅ Complete  | [28-07-2025] |
-| What is Stream?                                                            | [Varsha Mohod ](docs/core-java/Streams/Stream in java.md)  | ✅ Complete | [28-07-2025] |
+| What is Stream?                                                            | [Varsha Mohod ](docs/core-java/Streams/Stream_in_java.md)  | ✅ Complete | [28-07-2025] |
 | What Is Producer &Consumer?                                                | [Vaidehi Bhilawe ]       | ⏳ Pending  | [22-07-2025] |
 | What Is Method Reference ?                                                 | [Pratiksha Roshankhede ] | ⏳ Pending  | [22-07-2025] |
 | What Is JDK Features ?                                                     | [Vaidehi Warambhe ]      | ⏳ Pending  | [22-07-2025] |
