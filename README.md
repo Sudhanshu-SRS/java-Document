@@ -27,7 +27,7 @@ Welcome to our team's collaborative Java Full Stack documentation! This reposito
 | Exception handling                                                         | [Utkarsha Ingale ](docs/core-java/exceptions/Exception_Handling_Java_Full.md)       | ✅ Complete  | [26-07-2025] |
 | Check Exception                                                            | [Jayant Meshram ](docs/core-java/exceptions/Checked_Exception_in_Java.md)       | ✅ Complete   | [26-07-2025] |
 | Runtime Exception                                                          | [Fulanshu Kuthe ](docs/core-java/exceptions/Runtime_Exception_in_Java.md)        | ✅ Complete  | [26-07-2025] |
-| Optional Class In JDK                                                      | [Gayatri Jaisawal]       | ⏳ Pending  | [18-07-2025] |
+| Optional Class In JDK                                                      | [Gayatri Jaisawal](docs/core-java/basics/Optional_Class_in_JDK.md) | ✅ Complete  | [29-07-2025] |
 | Execution framework                                                        | [Sarang Marotkar ](docs/core-java/multithreading/execution_framework_java.md)       | ✅ Complete | [22-07-2025] |
 | Parallel Stream                                                            | [Aachal Katkar ](docs/core-java/Streams/Parallel_Stream_Java.md)         | ✅ Complete  | [28-07-2025] |
 | What is Stream?                                                            | [Varsha Mohod ](docs/core-java/Streams/Stream_in_java.md)  | ✅ Complete | [28-07-2025] |
