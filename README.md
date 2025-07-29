@@ -15,7 +15,7 @@ Welcome to our team's collaborative Java Full Stack documentation! This reposito
 
 ### Core Java Topics
 
-| Topic                                                                      | Assigned To              | Status      | Due Date     |
+| Topic                                                                      | Assigned To              | Status      | Submit Date     |
 | -------------------------------------------------------------------------- | ------------------------ | ----------- | ------------ |
 | What Is abstarct class And What Is Interface And Difference Between Them ? | [Sudhanshu Sakhare](docs/core-java/basics/abstract-vs-interface-java.md)      | ✅ Complete | [16-07-2025] |
 | What Is Class And It's Components                                          | [Gargee Purwar](docs/core-java/basics/java_class_documentation.md)          | ✅ Complete  | [26-07-2025] |
