@@ -31,7 +31,7 @@ Welcome to our team's collaborative Java Full Stack documentation! This reposito
 | Execution framework                                                        | [Sarang Marotkar ]       | ✅ Complete | [22-07-2025] |
 | Parallel Stream                                                            | [Aachal Katkar ](docs/core-java/Streams/Parallel_Stream_Java.md)         | ✅ Complete  | [28-07-2025] |
 | What is Stream?                                                            | [Varsha Mohod ](docs/core-java/Streams/Stream_in_java.md)  | ✅ Complete | [28-07-2025] |
-| What Is Producer &Consumer?                                                | [Vaidehi Bhilawe ]       | ⏳ Pending  | [22-07-2025] |
+| What Is Producer &Consumer?                                                | [Vaidehi Bhilawe ]       | ✅ Complete  | [22-07-2025] |
 | What Is Method Reference ?                                                 | [Pratiksha Roshankhede ] | ⏳ Pending  | [22-07-2025] |
 | What Is JDK Features ?                                                     | [Vaidehi Warambhe ]      | ⏳ Pending  | [22-07-2025] |
 | What Is Thread Join ? ?                                                    | [Rupali Korkanti ](docs/core-java/multithreading/Thread_Join_Java_Documentation.md)       | ✅ Complete | [26-07-2025] |
