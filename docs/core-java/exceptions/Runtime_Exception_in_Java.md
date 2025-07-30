@@ -3,7 +3,7 @@
 
 ## 📖 Overview
 
-Runtime exceptions in Java are exceptions that occur **during program execution** (i.e., at runtime) and are not checked by the compiler. These exceptions typically represent programming bugs, such as logic errors or improper use of an API. They are a subset of unchecked exceptions and extend the RuntimeException class.
+Runtime exceptions in Java are exceptions that occur **during program execution** (i.e., at runtime) and are not checked by the compiler. These exceptions typically represent programming bugs, such as logic errors or improper use of an API. They are a subset of unchecked exceptions and extend the Runtime Exception class.
 
 ## 🎯 Learning Objectives
 
@@ -36,11 +36,11 @@ public class RuntimeExample {
 
 ### Common Types of Runtime Exceptions
 
-- `NullPointerException`
-- `ArrayIndexOutOfBoundsException`
-- `ClassCastException`
-- `ArithmeticException`
-- `IllegalArgumentException`
+- NullPointerException
+- ArrayIndexOutOfBoundsException
+- ClassCastException
+- ArithmeticException
+- IllegalArgumentException
 
 ### Unchecked vs Checked Exceptions
 
