@@ -38,6 +38,7 @@ Welcome to our team's collaborative Java Full Stack documentation! This reposito
 | What Is Single Stream ?                                                    | [Sarika Khorgade ](docs/core-java/Streams/single_stream_java.md)      | ✅ Complete  | [28-07-2025] |
 | Do Not Know?                                                               | [Saurabh Admane ]        | ⏳ Pending  | [22-07-2025] |
 | what Is Casting?                                                               | [Prashika Thool ](docs/core-java/basics/Casting_in_Java.md)     | ✅ Complete  | [28-07-2025] |
+|What Is Predicate?                                                          | Ishika Wadichar|    ⏳ Pending | nil|          
 
 
 ### Backend Technologies
