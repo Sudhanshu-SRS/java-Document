@@ -23,7 +23,7 @@ Welcome to our team's collaborative Java Full Stack documentation! This reposito
 | Four Access Modifier                                                       | [Purva](docs/core-java/basics/four_access_modifiers.md)                 | ✅ Complete   | [28-07-2025] |
 | What Is Package ?                                                          | [Mansi D nandanwar](docs/core-java/basics/java-packages.md)     | ✅ Complete   | [25-07-2025] |
 | What Is Nested Class?                                                      | [Vaibhavi Ghom](docs/core-java/basics/Nested%20Class%20in%20Java.md)        | ✅ Complete | [28-07-2025] |
-| what Is Class & Classpath?                                                 | [Niraj ]                 | ⏳ Pending  | [17-07-2025] |
+| what Is Class & Classpath?                                                 | [Niraj Gore] (docs/core-java/basics/Class_and_ClassPath.md)  |✅ Complete| [02-08-2025] |
 | Exception handling                                                         | [Utkarsha Ingale ](docs/core-java/exceptions/Exception_Handling_Java_Full.md)       | ✅ Complete  | [26-07-2025] |
 | Check Exception                                                            | [Jayant Meshram ](docs/core-java/exceptions/Checked_Exception_in_Java.md)       | ✅ Complete   | [26-07-2025] |
 | Runtime Exception                                                          | [Fulanshu Kuthe ](docs/core-java/exceptions/Runtime_Exception_in_Java.md)        | ✅ Complete  | [26-07-2025] |
